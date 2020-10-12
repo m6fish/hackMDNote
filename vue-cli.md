@@ -40,23 +40,41 @@ vue-cli 學習筆記
 
 ```$ npm install -g @vue/cli-service-global```
 
-2. 建一個專案資料夾，裡面放入單一的vue檔
+2. 建一個專案資料夾，建立單一的vue檔
 
-project/sample.vue
+project/app.vue
+
+ > 只能是這幾種檔名 main.js, index.js, App.vue or app.vue
 
 ```
 <template>
-  <h1>Hello!</h1>
+    <h1>{{title}}</h1>
 </template>
+
+<script>
+export default {
+    name: "myPage",
+    data(){
+        return {
+            title: 'Hi single Vue'
+        }
+    }
+};
+</script>
 ```
 
 3. 啟動開發sever
 
 ```$ vue serve```
 
+> 如果localhost顯示可以試試看(或者開無痕):<br/>
+>  https://localhost:8080 -> http://localhost:8080
+
 4. 打包成上線檔案
 
 ```$ vue build```
+
+> 預設會在 /dist 底下
 
 
 ### 2-2 建立一個專案
