@@ -8,6 +8,8 @@ vue-cli 學習筆記
 
 [官方文件](https://cli.vuejs.org/guide/installation.html)
 
+[Vue CLI 3 安裝與使用教學](https://www.footmark.info/programming-language/vuejs/vue-cli3-seting/)
+
 ## 名詞
 
 新版叫做 "@vue/cli" 舊版 "vue-cli"
@@ -36,11 +38,11 @@ vue-cli 學習筆記
 > 這種狀況更建議直接使用線上編輯器 
 > [jsbin](https://jsbin.com/fobejut/3/edit?html,js,output)
 
-1. 需要額外安裝
+#### 1. 需要額外安裝
 
 ```$ npm install -g @vue/cli-service-global```
 
-2. 建一個專案資料夾，建立單一的vue檔
+#### 2. 建一個專案資料夾，建立單一的vue檔
 
 project/app.vue
 
@@ -63,14 +65,16 @@ export default {
 </script>
 ```
 
-3. 啟動開發sever
+#### 3. 啟動開發sever
 
 ```$ vue serve```
 
 > 如果localhost顯示可以試試看(或者開無痕):<br/>
 >  https://localhost:8080 -> http://localhost:8080
 
-4. 打包成上線檔案
+ 就可以開始編寫程式囉
+
+#### 4. 打包成上線檔案
 
 ```$ vue build```
 
@@ -79,5 +83,48 @@ export default {
 
 ### 2-2 建立一個專案
 
+#### 1. 建立專案
 
-... to be continue
+```$ vue create lab ```
+
+![](https://i.imgur.com/OOdsOkh.png)
+
+> lab 是專案的名稱
+
+> Default 跟 Manually的差異:<br/>
+> Manually 可以選更多套件(e.g. router)，適合是較大型的專案
+
+![](https://i.imgur.com/YNZXbF0.png)
+
+
+全部的設定大概長這樣
+[可以參考這邊](https://www.footmark.info/programming-language/vuejs/vue-cli3-seting/)
+
+![](https://i.imgur.com/oaTt1Gf.png)
+
+
+#### 2. 進入專案
+
+```$ cd lab ```
+
+#### 3. 啟動開發server
+
+```$ npm run serve```
+
+![](https://i.imgur.com/YNVPiy5.png)
+
+
+> chrome一樣有碰到localhost顯示問題(請開無痕):<br/>
+>  https://localhost:8080 -> http://localhost:8080
+
+>  或者直接編輯 package.json 指定用IP啟動
+
+![](https://i.imgur.com/IKmpLdz.png)
+
+ 就可以開始編寫程式囉
+ 
+####  4. 打包成上線檔案
+
+```$ npm run build ```
+
+> 預設會在 /dist 底下
