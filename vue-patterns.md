@@ -1,6 +1,9 @@
 那些尚未玩過的技術 Vue
 ===
 
+
+[![hackmd-github-sync-badge](https://hackmd.io/uVKHYi5dR7mKd7J-OtOWAQ/badge)](https://hackmd.io/uVKHYi5dR7mKd7J-OtOWAQ)
+
 ###### tags: `技術` `Vue`
 
 紀錄自己未使用過的Vue 2.x部分
@@ -50,7 +53,7 @@
 > **inheritAttrs** :false (otherwise both, div and child-component will receive the attributes)
 
 
-## Higher Order Component (HOC)
+### Higher Order Component (HOC)
 
 [Higher Order Components in Vue.js](https://medium.com/bethink-pl/higher-order-components-in-vue-js-a79951ac9176) <br/>
 [vue-hoc simple](https://github.com/bognix/vue-hoc) <br/>
