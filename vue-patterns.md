@@ -116,4 +116,4 @@ watch: {
 }
 ```
 **immediate: true**
-> 讓監聽
+> 讓監聽值在 **初始** 和 **值變動**時觸發 handler
