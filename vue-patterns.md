@@ -13,6 +13,7 @@
 
 * [vue-patterns(英文原版)](https://github.com/learn-vuejs/vue-patterns)
 * [Vue 實作模式 (vue-patterns) 中文版](https://github.com/yoyoys/vue-patterns-cht)
+* [範例](https://github.com/m6fish/vue_patterns_sample)
 
 ---
 
