@@ -16,6 +16,14 @@
 
 ---
 
+### props.sync Modifier
+
+[Design Patterns for Communication Between Vue.js Components](https://code.tutsplus.com/tutorials/design-patterns-for-communication-between-vuejs-component--cms-32354)
+
+in parent: :score.sync="score"  (= :score="score" \@update:score="score = $event")<br/>
+in child:  $emit('update:score', 100)
+
+
 ### Functional Component
 
 >  no script tag, only "**props**"
